@@ -1,0 +1,116 @@
+body{
+  background: url('white') no-repeat;
+  background-size: cover;
+  fornt font-family: arial;
+}
+ul{
+  margin: 0px;
+  padding: 1px;
+  list-style: none;
+    }
+ul li{
+  float: left;
+  width: 128.9px;
+  height: 25px;
+  background-color:teal;
+  opacity:.8;
+  line-height: 25px;
+  text-align: center;
+  font-size: 11.5px;
+  }
+   ul li a {
+     text-decoration: none;
+     color: white;
+     display: block;
+   }
+   ul li a:hover{
+     background: green;
+   }
+   ul li ul li{
+     display: none;
+   }
+   ul li:hover ul li{
+     display: block;
+   }
+
+   .navigation-bar {
+       width: 100%;  /* i'm assuming full width */
+       height:120px; /* change it to desired width */
+       background-color: white; /* change to desired color */
+   }
+   .logo {
+       display:inline-block;
+       vertical-align:top;
+       width: 90px;
+       height: 80px;
+       margin-right:2px;
+       margin-top: 30px;    /* if you want it vertically middle of the navbar.*/
+   }
+
+
+   .navigation-bar > a {
+       display:center;
+       vertical-align: top;
+       margin-right: 20px;
+       height: 80px;        /* if you want it to take the full height of the bar */
+       line-height: 80px;    /* if you want it vertically middle of the navbar */
+   }
+
+   footer {
+      display: block;
+      height:4px;
+  }
+  .fa {
+  padding: 10px;
+  font-size: 4px;
+  width: 15px;
+  text-align: left;
+  text-decoration: none;
+  margin: 4px 2px;
+  border-radius: 100%;
+}
+
+.fa:hover {
+    opacity:0.8;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+  html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+#container {
+   min-height:100%;
+   position:relative;
+   height:100%;
+}
+#header {
+   background:teal;
+   padding:1px;
+}
+#body {
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+#footer {
+   position:absolute;
+   float:right;
+   bottom:0;
+   width:100%;
+   height:80px;   /* Height of the footer */
+   background:GAINSBORO;
+   text-align: right;
+   font-size: 11px;
+   font-style: italic;
+   }
