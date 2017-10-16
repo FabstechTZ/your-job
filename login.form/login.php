@@ -4,11 +4,20 @@
 
 <link href='style.css' rel='stylesheet'>
 <head>
+
+</h1>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+
+
 <body>
 <nav class="navigation-bar">
     <img class="logo" src="job.jpg">
     <ul>
   <li><a href="http://localhost/FABSTECH/main.page/">Home</a></li>
+
+  
+
   <li><a>login</a>
       <ul>
       <li><a href="http://localhost/FABSTECH/login.form/login.php">clients</a></li>
@@ -44,7 +53,12 @@
 
 </nav>
 </body>
+
 </head>
+
+</h1>
+
+
 </html>
 
 <html>
